@@ -1,2 +1,2 @@
 # html-css
-Curso de HTML e CSS3 doo Estudonauta
+Curso de HTML e CSS3 do Estudonauta
