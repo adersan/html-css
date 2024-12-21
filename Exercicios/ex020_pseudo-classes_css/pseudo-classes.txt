@@ -1,0 +1,5 @@
+Pseudos classes
+
+a:hover{} /*Quando passar o mouse em cima*/
+a:visited{}/*Quando visitado*/
+a:active{}/*Quando for clicado*/

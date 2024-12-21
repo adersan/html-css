@@ -1,0 +1,8 @@
+Alinhamento de texto
+
+text-align: center;
+text-align: left;
+text-align: right;
+text-align: justify;
+
+text-indent: px; //para recúco de margem 

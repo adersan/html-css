@@ -1,0 +1,5 @@
+sites:
+www.whatfontis.com
+www.fontsquirrel.com
+www.myfonts.com
+

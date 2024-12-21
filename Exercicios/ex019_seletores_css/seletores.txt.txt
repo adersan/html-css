@@ -1,0 +1,7 @@
+Tipo de seletores:
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = clildren

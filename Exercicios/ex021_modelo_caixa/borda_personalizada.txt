@@ -1,0 +1,10 @@
+            border: 10px solid transparent;/*formarar a borda*/
+            padding: 10px;
+            border-image-source: url('imagem/borda.png') ;/*caminho*/
+            border-image-slice: 24;/*fatiar a imagem*/
+            border-image-repeat: repeat;/*repetir*/
+
+shorthand
+
+border-image: url('imagem/borda.png') 24 repeat ;
+       

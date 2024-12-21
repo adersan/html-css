@@ -1,0 +1,34 @@
+height - altura
+width - largura
+border - linha dentro do elemento
+padding - acochoamento interno
+margin - espaço externo
+outline - linha fora do elemento
+
+tipos de box
+box-level - <div>
+inline-level - <span>
+
+DIV
+h1 - h6
+p
+main
+header
+nav
+article
+aside
+form
+video
+
+SPAN
+a
+code
+small
+strong
+em
+sup - sub
+label
+button
+input
+select
+

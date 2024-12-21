@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'open';
+    src: url('fonts/OpenSans-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(30deg, #01164e, #012581d6, #01164e, #012581d6, #01164e, #012581d6, #01164e );
+    font-family: 'open', Helvetica, sans-serif;
+    margin: 0px;
+    /*background-color: #012581;*/
+}
+header{
+    background-color: white;
+    /*border-radius: 5px;*/
+    padding: 10px;
+    margin: 0px;
+}
+header > h1{
+    background-image: radial-gradient( white, #a2bdbd);
+    box-shadow: 2px 0px 3px 1px #01164e63;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+nav{
+    background-image: linear-gradient(90deg, #012581d6 10%, #01164e 90%);
+    box-shadow: 2px 2px 3px 1px #01164e63;
+    border-radius: 0px 0px 15px 15px;
+    text-align: end;
+    padding: 8px;
+    margin: 0px 0px 10px 0px;
+    
+}
+nav > ul{
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul > li{
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+nav > ul > li > a{
+    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 5px;
+}
+nav > ul > li > a:hover{
+    background-image: radial-gradient( white, #a2bdbd);
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px 1px #01164e63;
+
+}
+div > marquee{
+    background-color: #a2bdbd;
+    text-shadow: 2px 2px 1px black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.252);
+    color: #d6e2e2;
+    display: block;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: block;
+    /*background-color: #f4f7f7;*/
+    border-radius: 5px 5px 0px 0px;
+    padding: 3px;
+    margin: 5px;
+}
+section{
+    background-color: #012581;
+    box-shadow: 2px 2px 3px 1px #01164e63;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+
+
+}
+
+article{
+    background-image: radial-gradient( white, #d6e2e2);
+    padding: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+article > p{
+    text-align: justify;
+    margin: 5px;
+    padding: 0px;
+}
+article > h2{
+    margin: 5px;
+    padding: 0px;
+}
+
+article > aside{
+    background-image: linear-gradient(90deg, #a2bdbd, rgba(255, 255, 255, 0.092));
+    text-align: end;
+    padding: 3px;
+    margin: 5px;
+}
+article > aside > p{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    font-size: 0.8em;
+    text-decoration: none;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+
