@@ -1,0 +1,17 @@
+Para obter uma imagem ideal no fundo a melhor configuração é essa abaixo:
+            height: 100vh;
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+segue o shorthand do baxkgroud
+color  > image  > position  > repeat > [size]  > attachament
+
+a tag é: 
+background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+background-size: cover;
+
+O size conta na regra do css mas não está funcionando nos navegadores, então usaremos ele separado do shorthand
