@@ -4,3 +4,11 @@ TABLE = tabela
         TABLE HEADER = cabeçalho de tabela
         TABLE DATA = dado de tabela
 
+HERAQUIA TABELAS (GRANDES)
+TABLE
+    THEAD
+        TR, TD, TH
+    TBODY
+        TR, TD, TH
+    TFOOT
+        TR, TD, TH
