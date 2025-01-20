@@ -6,9 +6,20 @@ TABLE = tabela
 
 HERAQUIA TABELAS (GRANDES)
 TABLE
+    CAPTION
     THEAD
         TR, TD, TH
     TBODY
         TR, TD, TH
     TFOOT
         TR, TD, TH
+
+-----------------------------------------
+EFEITO ZEBRADO
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgreen;
+        }
